@@ -3,4 +3,4 @@ mario:
   image: vijaygiduthuri/mario:latest
   replicas: 1
   serviceName: mario-service
-  type: ClusterIP
+  type: LoadBalancer
